@@ -1,0 +1,23 @@
+[tool.poetry]
+authors = [""]
+description = ""
+name = "{{ cookiecutter.project_slug|lower|replace(' ', '-') }}"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+pre-commit = "^2.20.0"
+pytest = "^7.2.0"
+ruff = "^0.0.237"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.black]
+line-length = 120
+target-version = ["py39"]
