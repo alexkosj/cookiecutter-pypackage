@@ -16,7 +16,3 @@ ruff = "^0.0.237"
 [build-system]
 build-backend = "poetry.core.masonry.api"
 requires = ["poetry-core"]
-
-[tool.black]
-line-length = 120
-target-version = ["py39"]
