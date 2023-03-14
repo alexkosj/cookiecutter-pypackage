@@ -1,5 +1,6 @@
 [tool.poetry]
 authors = ["{{ cookiecutter.full_name }} <{{ cookiecutter.email }}>"]
+description = "{{ cookiecutter.project_name }}"
 name = "{{ cookiecutter.project_name }}"
 readme = "README.md"
 version = "{{ cookiecutter.version }}"
